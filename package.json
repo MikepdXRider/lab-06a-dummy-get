@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/MikepdXRider/lab-06a-dummy-get/issues"
   },
-  "homepage": "https://github.com/MikepdXRider/lab-06a-dummy-get#readme"
+  "homepage": "https://github.com/MikepdXRider/lab-06a-dummy-get#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "jest": "^27.2.3",
+    "supertest": "^6.1.6"
+  }
 }
