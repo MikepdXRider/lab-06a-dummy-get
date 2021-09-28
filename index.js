@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000
 // Allows other servers to hit our endpoints. 
 app.use(cors())
 
-app.get('/', (req, res) => {
+app.get('/', (req, res) => {s
   res.send('Hello World!')
 })
 
