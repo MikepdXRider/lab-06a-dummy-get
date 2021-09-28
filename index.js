@@ -19,8 +19,8 @@ app.get('/teas', (req, res) => {
 })
 
 // Defines /tea/:tea endpoint, if hit will find correct tea and return the dataObj.
-app.get('/teas/:tea', (req, res) => {
-    const matchingTea = dataArr.find(dataObj => dataObj.tea === Number(req.params.tea))
+app.get('/teas/:id', (req, res) => {
+    const matchingTea = dataArr.find(dataObj => dataObj.id === Number(req.params.id))
     res.json(matchingTea)
 })
 
