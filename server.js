@@ -22,6 +22,7 @@ app.get('/teas/:id', (req, res) => {
     res.json(matchingTea)
 })
 
+// Exports app
 module.exports = {
     app
 }
