@@ -1,0 +1,20 @@
+{
+  "name": "lab-06a-dummy-get",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MikepdXRider/lab-06a-dummy-get.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MikepdXRider/lab-06a-dummy-get/issues"
+  },
+  "homepage": "https://github.com/MikepdXRider/lab-06a-dummy-get#readme"
+}
