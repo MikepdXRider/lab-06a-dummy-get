@@ -41,4 +41,6 @@ const dataArr = [
     },
 ]
 
-export default dataArr
+module.exports = {
+    dataArr
+}

@@ -20,10 +20,11 @@ app.get('/teas', (req, res) => {
 
 // Defines /tea/:tea endpoint, if hit will find correct tea and return the dataObj.
 app.get('/teas/:tea', (req, res) => {
-    const matchingTea = dataArr.find(dataObj => dataObj.tea === req.params.tea)
+    const matchingTea = dataArr.find(dataObj => dataObj.tea === Number(req.params.tea))
     res.json(matchingTea)
 })
 
+// On deploy, communicates to terminal where we can view our content.
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
